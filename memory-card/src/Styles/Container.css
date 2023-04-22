@@ -1,0 +1,29 @@
+.container{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4 , minmax(250px, 1fr) );
+    padding: 30px;
+    gap: 30px;
+}
+
+.game-over{
+    flex: 1;
+    padding: 30px;
+    display: grid;
+    place-content: center;
+    font-size: 60px;
+    gap: 80px;
+    font-weight: 600;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+button:hover{
+    background-color: #cdc7c7;
+}
+
+

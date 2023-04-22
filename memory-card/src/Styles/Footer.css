@@ -1,0 +1,7 @@
+.footer{
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    background-color: #504d4d;
+    font-size: 20px;
+}

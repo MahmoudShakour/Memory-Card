@@ -1,0 +1,28 @@
+.header{
+    padding: 40px;
+    background-color: #504d4d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.scoring{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
